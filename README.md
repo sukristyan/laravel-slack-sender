@@ -47,7 +47,7 @@ You can override the default channel configured in the webhook (if allowed):
 
 ```php
 Slack::webhook($webhookUrl)
-    ->channel('#random')
+    ->channel('#random') // optional
     ->message('This message is sent to the #random channel.')
     ->send();
 ```
@@ -58,7 +58,7 @@ You can send richer messages using attachments:
 
 ```php
 Slack::webhook($webhookUrl)
-    ->message('Daily Report')
+    ->message('Daily Report') // optional
     ->attachments([
         [
             'color' => '#36a64f',
