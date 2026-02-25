@@ -1,0 +1,29 @@
+{
+    "name": "sukristyan/laravel-slack-sender",
+    "description": "Simple and flexible Slack message sender for Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "slack",
+        "message",
+        "sender",
+        "laravel slack sender"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sukristyan\\Messaging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Galih",
+            "email": "hi@galih.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "prefer-stable": true
+}
